@@ -38,8 +38,8 @@ header {
     display: flex;
 }
 
-header .logo2 {
-    margin-left: 250px;
+header #logo2 {
+    margin: auto;
 }
 
 main {
