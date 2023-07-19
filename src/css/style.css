@@ -36,11 +36,22 @@ a {
 
 header {
     display: flex;
+    height: 150px;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url('../img/logo2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-header #logo2 {
-    margin: auto;
+header #logo1 {
+    object-position: left;
 }
+
+/* header #logo2 {
+    object-position: right;
+} */
 
 main {
     padding: 10px;
